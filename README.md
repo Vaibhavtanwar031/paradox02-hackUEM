@@ -1,5 +1,5 @@
-#project title.
-#ambulance traker.
+# project title.
+# ambulance traker.
 The Ambulance Tracker is a technological solution designed to enhance the efficiency and effectiveness of emergency medical services (EMS). Its primary function is to provide real-time tracking of ambulances, enabling faster response times during emergencies, better coordination among medical teams, and improved patient outcomes.
 
 ### Key Features
