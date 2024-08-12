@@ -1,0 +1,28 @@
+# Move.toml
+
+[project]
+name = "ambulance_tracker"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Move project for tracking ambulances on Aptos"
+
+[dependencies]
+# If your project depends on specific Move libraries or Aptos packages, you can list them here.
+# For example, to include the Aptos standard library (assuming you have the appropriate path):
+stdlib = { source = "https://github.com/aptos-labs/aptos-core.git", rev = "your-commit-hash" }
+
+[compiler]
+# Specify the compiler version or flags if needed
+default = true
+
+[workspace]
+# Define the directory where your Move modules are located
+paths = ["move_modules"]
+
+[move]
+# Any additional Move-related configurations or compiler flags can go here
+compiler_flags = []
+
+[deployment]
+# Define the address of your Move module deployment on the Aptos blockchain.
+# This is a placeholder and should be replaced with your actual deployment address.
